@@ -8,7 +8,8 @@ log.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", filename="ap
 def hello():
     endpoint = "/"
     log.debug("The endpoint: '" + endpoint + "' was reached")
-    return "Hello World!"
+    data = {"result": "Hello World"}
+    return jsonify(data), 200
 
 @app.route("/status")
 def status():
