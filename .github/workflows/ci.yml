@@ -33,6 +33,7 @@ jobs:
         name: Run and test the Flask App
         run: |
           nohup flask run > flask.log 2>&1 &
+          sleep 5
           pytest
           kill -9 `lsof -i:5000 -t`
       -
