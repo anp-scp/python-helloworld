@@ -1,9 +1,8 @@
 namespace:
   name: sandbox
  
-image:
-  repository: anup1997/python-helloworld 
-  tag: v1.0.0
+image: 
+  tag: v1.0.1
 
 replicaCount: 3
 port: 9092

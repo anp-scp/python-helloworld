@@ -1,3 +1,6 @@
 namespace:
   name: staging
+
+image:
+  tag: v1.0.0
 port: 9093 
