@@ -6,3 +6,4 @@ image:
   tag: v1.0.0
 
 replicaCount: 3
+port: 9092
