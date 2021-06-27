@@ -1,0 +1,4 @@
+replicaCount: 3
+image:
+  repository: anup1997/python-helloworld 
+  tag: v1.0.0
