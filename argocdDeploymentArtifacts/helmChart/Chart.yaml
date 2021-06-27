@@ -1,0 +1,10 @@
+apiVersion: v1
+name: python-helloworld-cd 
+description: Install a Python HelloWorld deployment
+keywords:
+- python
+- helloworld 
+version: 1.0.0
+maintainers:
+- name: anp
+  email: anp@anp.com
