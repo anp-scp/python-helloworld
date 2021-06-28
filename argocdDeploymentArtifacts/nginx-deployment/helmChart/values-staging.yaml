@@ -3,6 +3,7 @@ namespace:
  
 service:
   port: 8111
+  lbport: 8112
   type: ClusterIP
 
 image:
