@@ -20,5 +20,5 @@ resources:
 configmap:
   data: "version: alpine"
   
-nginx-alpine-cd-lb:
+servicelb:
   enabled: false
