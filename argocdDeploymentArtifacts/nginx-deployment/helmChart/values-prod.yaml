@@ -1,8 +1,8 @@
 namespace:
-  name: prod 
+  name: nginx-prod 
  
 service:
-  port: 80
+  port: 8111
   type: ClusterIP
 
 image:
@@ -19,3 +19,6 @@ resources:
 
 configmap:
   data: "version: 1.17.0"
+  
+servicelb:
+  enabled: true
