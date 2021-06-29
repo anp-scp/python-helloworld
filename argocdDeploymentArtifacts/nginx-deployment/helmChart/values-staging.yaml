@@ -22,4 +22,4 @@ configmap:
   data: "version: 1.18.0"
   
 servicelb:
-  enabled: true
+  enabled: flase
