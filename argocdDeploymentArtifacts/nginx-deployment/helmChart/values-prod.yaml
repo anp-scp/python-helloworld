@@ -23,3 +23,7 @@ configmap:
   
 servicelb:
   enabled: true
+  namespace:
+    name: nginx-prod
+  service:
+    lbport: 8114

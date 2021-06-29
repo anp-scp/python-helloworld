@@ -1,5 +1,0 @@
-namespace:
-  name: nginx-staging 
- 
-service:
-  lbport: 8112

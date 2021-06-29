@@ -22,3 +22,7 @@ configmap:
   
 servicelb:
   enabled: false
+  namespace:
+    name: demo
+  service:
+    lbport: 8112

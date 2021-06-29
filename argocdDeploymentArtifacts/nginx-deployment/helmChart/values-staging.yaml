@@ -3,7 +3,6 @@ namespace:
  
 service:
   port: 8111
-  lbport: 8112
   type: ClusterIP
 
 image:
@@ -23,3 +22,7 @@ configmap:
   
 servicelb:
   enabled: false
+  namespace:
+    name: nginx-staging
+  service:
+    lbport: 8113
