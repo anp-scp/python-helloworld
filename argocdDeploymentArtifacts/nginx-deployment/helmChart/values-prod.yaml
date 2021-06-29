@@ -2,6 +2,7 @@ namespace:
   name: nginx-prod 
  
 service:
+  lbport: 8114
   port: 8111
   type: ClusterIP
 
