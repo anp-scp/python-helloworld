@@ -1,10 +1,5 @@
 namespace:
   name: nginx-prod 
- 
-service:
-  lbport: 8114
-  port: 8111
-  type: ClusterIP
 
 image:
   repository: nginx 
@@ -27,3 +22,10 @@ servicelb:
     name: nginx-prod
   service:
     lbport: 8114
+
+serviceClusterIP:
+  enabled: false
+  namespace:
+    name: nginx-prod
+  service:
+    port: 8111

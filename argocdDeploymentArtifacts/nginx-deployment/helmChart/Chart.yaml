@@ -11,3 +11,7 @@ dependencies:
 - name: servicelb
   version: 1.0.0
   condition: servicelb.enabled, global.servicelb.enabled
+- name: serviceClusterIP
+  version: 1.0.0
+  condition: serviceClusterIP.enabled, global.serviceClusterIP.enabled
+

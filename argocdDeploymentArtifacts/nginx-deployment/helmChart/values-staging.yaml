@@ -1,9 +1,5 @@
 namespace:
   name: nginx-staging 
- 
-service:
-  port: 8111
-  type: ClusterIP
 
 image:
   repository: nginx 
@@ -26,3 +22,10 @@ servicelb:
     name: nginx-staging
   service:
     lbport: 8113
+    
+serviceClusterIP:
+  enabled: true
+  namespace:
+    name: nginx-staging
+  service:
+    port: 8111

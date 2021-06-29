@@ -1,9 +1,5 @@
 namespace:
   name: demo
- 
-service:
-  port: 8111
-  type: ClusterIP
 
 image:
   repository: nginx 
@@ -26,3 +22,11 @@ servicelb:
     name: demo
   service:
     lbport: 8112
+
+serviceClusterIP:
+  enabled: true
+  namespace:
+    name: demo
+  service:
+    port: 8111
+  
